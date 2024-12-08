@@ -29,7 +29,7 @@ if answer.lower()=="random access memory":
 else:
     print('Incorrect')
 
-answer= input("What doesn ROM stand for: ")
+answer= input("What does ROM stand for: ")
 if answer.lower()=="read only memory":
     print('Correct!')
     score +=1
@@ -43,6 +43,6 @@ if answer.lower()=="power supply":
 else:
     print('Incorrect')
 
-print("You got " +str(score) + " questions correct.")
-print("You got " +str((score/4 )* 100) + "%.")
+print("You got ", score, " questions correct.")
+print("You got ", (score/4 )* 100,"%.")
 
