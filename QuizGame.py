@@ -44,5 +44,5 @@ else:
     print('Incorrect')
 
 print("You got ", score, " questions correct.")
-print("You got ", (score/4 )* 100,"%.")
+print("You got ", (score/5 )* 100,"%.")
 
